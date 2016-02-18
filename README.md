@@ -16,8 +16,8 @@ The project is setup as a multi-module Maven project:
 
 ## Compile and run
 
-Invoke Maven target `clean install` on *templater*.
-Invoke Maven target `clean install` on *templater-demo*.
-Invoke Maven target `jetty:run` on *templater-demo* to startup the Jetty server.
+* Invoke Maven target `clean install` on *templater*.
+* Invoke Maven target `clean install` on *templater-demo*.
+* Invoke Maven target `jetty:run` on *templater-demo* to startup the Jetty server.
 
 Application will be available under `localhost:8080`.
